@@ -1,0 +1,13 @@
+
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: auto;
+}
+
+.links > li {
+	display: inline;
+}
