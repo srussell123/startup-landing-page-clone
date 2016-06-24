@@ -1,13 +1,36 @@
+body {
+	-webkit-font-smoothing: antialiased;
+}
 
 .top-navigation {
 	background-color: #fff;
-}
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
+
 }
 
-.links > li {
-	display: inline;
+.top-navigation > .content {
+	height: 70px;
+	width: 960px;
+	margin: 0 auto;	
+	padding: 0px 15px
 }
+
+.top-navigation .content > .links {
+	margin-top: 25px;
+	float: right;
+}
+
+.top-navigation .links > li {
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+
+.links li > a {
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+
+
