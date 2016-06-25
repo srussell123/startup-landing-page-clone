@@ -8,7 +8,8 @@ html {
 
 .top-navigation {
 	background-color: #fff;
-
+	position: fixed;
+	width: 100%;
 }
 
 .top-navigation .content {
@@ -56,6 +57,42 @@ html {
 	height: 70px;
 }
 
+/* Banner */
 
+.introduction {
+	background-image: url("http://i1146.photobucket.com/albums/o539/e26dge/first-background_zpsj90ifd2m.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+
+.banner {
+	text-align: center; 
+	color: #fff;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+.introduction p {
+	margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+#btn {
+	background-color: orange;
+	border-color: orange;
+	text-align: center;
+	padding: 1rem 1.5rem;
+	border-radius: 4px;
+	border-style: none;
+	text-shadow: none;
+	color: white;
+	font-size: 1.125rem;
+}
 
 
